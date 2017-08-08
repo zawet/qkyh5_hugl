@@ -1,0 +1,65 @@
+// JavaScript Document
+
+var myMeetData=[
+{   type:"my",
+	meetName:"需求调研会议1",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"进行中",color:"but_gr"},
+	Button:{show:false,name:"签到",href:"#",id:""}
+},
+{	type:"my",
+	meetName:"需求调研会议2",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"未开始",color:"but_red"},
+	Button:{show:false,name:"",href:"",id:""}
+},
+{   type:"my",
+	meetName:"需求调研会议3",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"已结束",color:"ba_z9"},
+	Button:{show:false,name:"",href:"",id:""}
+},
+
+{   type:"all",
+	meetName:"需求调研会议1",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"进行中",color:"but_gr"},
+	Button:{show:false,name:"签到",href:"#",id:""}
+},
+{   type:"all",
+	meetName:"需求调研会议2",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"未开始",color:"but_red"},
+	Button:{show:true,name:"报名",href:"#",id:"baoming"}
+},
+{   type:"all",
+	meetName:"需求调研会议3",
+	Stime:"2016-08-01 15:00",
+	Etime:"2016-08-01 15:00",
+	meetAddress:"教学楼1楼",
+	sendMan:"关瑞荣",
+	meetType:"指定参会",
+	meetState:{name:"已结束",color:"ba_z9"},
+	Button:{show:false,name:"",href:"",id:""}
+}
+]
