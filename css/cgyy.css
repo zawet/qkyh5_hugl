@@ -15,12 +15,12 @@
 .isok{ background:#04be02; color:#fff; padding:6px 10px; position:absolute; border-radius:4px; right:16px; bottom:16px;}
 .isok:hover{ background:#08b322}
 .isok.cur{ background:#F0A942;}
-.isend{ background:#f9f9f9;}
-.isend *{ color:#999 !important;}
+
 .timesel{ display:block; background:#f1f1f1;  border-radius:4px; padding:4px 12px; margin:0 4px 10px 0; color:#a2a2a2;  font-size:14pz; text-align:center;}
 .timesel.cur{ background:#04be02; color:#fff;}
 
 .huli{ padding:10px 16px; box-sizing:border-box; background:#fff; width:100%; border-bottom:1px  solid #eee;line-height:24px; font-size:16px;}
+.huli i{ color:#08b322!important}
 .huInput{ border:none; width:100%; box-sizing:border-box; color:#737373; font-size:16px; border-radius:6px; font-family: Arial,Microsoft YaHei;}
 .hutable{ border-spacing: 0;border-collapse: collapse; width:100%;}
 .hutable tr th{ border:1px solid #ddd; padding:5px; background:#f5f5f5;}
@@ -29,3 +29,9 @@
 .hu_nodata{ padding:6% 0;}
 .hu_nodata i{ display:block; margin:auto; text-align:center;}
 .hu_nodata span{display:block; text-align:center; font-size:16px; color:#737373; padding:16px;}
+
+.huTitle{ color:#232323;}
+.huTitle i{ color:#08b322;}
+
+.isend{ background:#f9f9f9;}
+.isend *,.isend i{ color:#999 !important;}

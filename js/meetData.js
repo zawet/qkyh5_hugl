@@ -18,7 +18,7 @@ var myMeetData=[
 	meetAddress:"教学楼1楼",
 	sendMan:"关瑞荣",
 	meetType:"指定参会",
-	meetState:{name:"未开始",color:"but_red"},
+	meetState:{name:"未开始",color:"but_ye"},
 	Button:{show:false,name:"",href:"",id:""}
 },
 {   type:"my",
@@ -49,7 +49,7 @@ var myMeetData=[
 	meetAddress:"教学楼1楼",
 	sendMan:"关瑞荣",
 	meetType:"指定参会",
-	meetState:{name:"未开始",color:"but_red"},
+	meetState:{name:"未开始",color:"but_ye"},
 	Button:{show:true,name:"报名",href:"#",id:"baoming"}
 },
 {   type:"all",
