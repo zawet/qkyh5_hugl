@@ -29,15 +29,18 @@ function qkysel_news(){
 	$("#ks_type").click(function(){
 		$(this).parent().find(".optionbox").toggleClass("show");
 		$(".qkyh5_main").toggleClass("blur");
+		$(".opt_mask").show();
 	});
 	/***以为区域点击 s**/
 	 $(document).not($("#ks_type")).click(function(){
         $("#ks_type").parent().find(".optionbox").removeClass("show");
 		$(".qkyh5_main").removeClass("blur");
+		$(".opt_mask").hide();
     });
 	$(document).not($(".optionbox")).click(function(){
         $("#ks_type").parent().find(".optionbox").removeClass("show");
 		$(".qkyh5_main").removeClass("blur");
+		$(".opt_mask").hide();
     });
 	
     /*防止事件冒泡*/
@@ -80,6 +83,7 @@ function qkysel_news(){
 		$(".sptwo").html($(".sp_two .swiper-slide-active a").html());
 		$("#ks_type").parent().find(".optionbox").removeClass("show");
 		$(".qkyh5_main").removeClass("blur");
+		$(".opt_mask").hide();
 	})
 }
 
