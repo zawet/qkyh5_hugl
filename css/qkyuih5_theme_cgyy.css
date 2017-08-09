@@ -65,7 +65,7 @@
 .qkysel{color:#666;}
 .qkysel .selftxt{background:#a2a2a2; color:#fff;}
 .qkysel .seltxt b{ color:#E70509 !important;}
-.qkysel .selshow{ border:1px solid #eee; background: url(../images/selicon.png) no-repeat 96% center #fff;}
+.qkysel .selshow{ border-bottom:1px solid #ddd; background: url(../images/selicon.png) no-repeat 96% center #fff;}
 .qkysel .selshow.upsel{ background-image: url(../images/seliconup.png)}
 .qkysel .selshow.onlybt{border:none; border-bottom:1px solid #eee;}
 .qkysel .selshow.inp{ background:#fff;}
@@ -74,8 +74,8 @@
 .qkysel .selshow.inp.hicon .u_d{color:#00bb9a;}
 .qkysel .selshow.inp.hicon .u_d i.noc{ color:#888;}
 .qkysel .selshow.inp input[type='text'],.qkysel .selshow.inp input[type='date']{color:#666; }
-.qkysel .optionbox{background:rgba(59,58,64,0.8);}
-.qkysel .optionbox a.option{color:#fff;}
+.qkysel .optionbox{background:#fff; border-top:1px solid #ddd;}
+.qkysel .optionbox a.option{color:#333;}
 /*.qkysel .optionbox a.option:hover,.qkysel .optionbox a.option.cur{ font-size:22px; background:rgba(181,181,181,0.5);}*/
 .qkysel .optionbox div.option a.twosel{  border-bottom:1px solid #eee;background: url(../images/selicon.png) no-repeat 98% center #fff;}
 .qkysel .optionbox2 a.option2:hover{background:#00bb9a; color:#fff;}

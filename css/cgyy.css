@@ -35,3 +35,5 @@
 
 .isend{ background:#f9f9f9;}
 .isend *,.isend i{ color:#999 !important;}
+
+.hu_ymbut{ text-align:center; background:#08b322; color:#fff; line-height:36px; height:36px; position:absolute; bottom:2%; border-radius:6px; width:96%; left:2%; font-size:16px;}

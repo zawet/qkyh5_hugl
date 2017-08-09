@@ -139,6 +139,7 @@ textarea,input{ outline:none;}
 .hbtl{ text-decoration:underline;}/*文字底线*/
 .box_b{ box-sizing:border-box;}/*块元素浮动算宽度时，忽略边框和内边距*/
 .fz_we{ font-weight:700;}/*文字变粗*/
+.blur{-webkit-filter: blur(10px);filter: blur(10px);-moz-filter: blur(10px);}
 
 /*****************************灰度文字颜色*****************************/
 .co_z1{ color:#111!important;}/*深灰*/
